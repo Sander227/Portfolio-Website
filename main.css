@@ -1,11 +1,13 @@
-*{
+* {
     padding: 0%;
     margin: 0%
 }
-body{
+
+body {
     background-color: #000000;
 }
-header{
+
+header {
     display: flex;
     height: 100px;
     width: 100%;
@@ -14,7 +16,8 @@ header{
     justify-content: center;
     gap: 12.5vw;
 }
-footer{
+
+footer {
     display: flex;
     height: 75px;
     width: 100%;
@@ -22,81 +25,93 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
 a {
     text-decoration: none;
 }
-.main {
-    display: flex;
-    flex-direction: column;
-}
-.footer-bar{
+
+.footer-bar {
     gap: 30px;
     display: flex;
-    padding-left: 10px; padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 30px;
     width: fit-content;
     background-color: #04052E;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
-.menu-bar{
+
+.menu-bar {
     gap: 30px;
     display: flex;
-    padding-left: 10px; padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 30px;
     width: fit-content;
     background-color: #04052E;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
-.blauwe-text-kleur{
+
+.blauwe-text-kleur {
     color: #0D00A4;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
 }
-.witte-text-kleur{
+
+.witte-text-kleur {
     color: #ffffff;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
 }
-.naam-doos{
+
+.naam-doos {
     width: fit-content;
     height: auto;
 }
-.text-naam{
+
+.text-naam {
     color: #ffffff;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 45px;
 }
-.home-page-bovenste-foto{
+
+.home-page-bovenste-foto {
     width: 75%;
 }
-.box-om-plaatje{
+
+.box-om-plaatje {
     display: flex;
     height: 600px;
     background-image: url(images/HomePaginaEersteFoto.webp);
     background-repeat: no-repeat;
-}.box-om-plaatje2 {
-    background-position:right;
+}
+
+.box-om-plaatje2 {
+    background-position: right;
     background-image: url(images/HomePaginaTweedeFoto.webp);
     background-size: 1075px;
 }
-.witte-text-kleur-footer{
+
+.witte-text-kleur-footer {
     color: #ffffff;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
-.blauwe-text-kleur-footer{
+
+.blauwe-text-kleur-footer {
     color: #0D00A4;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
 }
-.blok-voor-text{
+
+.blok-voor-text {
     background-color: #140152;
     height: 1000px;
     width: fit-content;
@@ -108,17 +123,20 @@ a {
     justify-content: center;
     align-items: center;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: column;
 }
-.box-om-blok{
+
+.box-om-blok {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 125px;
 }
-.eerste-blok-tekst{
+
+.eerste-blok-tekst {
     display: flex;
     flex-direction: row;
     justify-self: end;
@@ -128,7 +146,8 @@ a {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
 }
-.laatste-blok-tekst{
+
+.laatste-blok-tekst {
     display: flex;
     flex-direction: row;
     justify-self: end;
@@ -139,7 +158,8 @@ a {
     font-family: "Montserrat", sans-serif;
 
 }
-.over-mij-plaatjes{
+
+.over-mij-plaatjes {
     width: 400px;
     height: 200px;
     display: flex;
@@ -147,6 +167,7 @@ a {
     border-radius: 30px;
 
 }
+
 .over-mij-container {
     display: flex;
     flex-direction: row;
@@ -156,18 +177,68 @@ a {
     width: 100%;
     gap: 50px;
 }
-@media only screen and (max-width: 1100px){
-    .over-mij-plaatjes{
+
+
+.mijn-projecten-tekst-blok {
+    width: 475px;
+    background-color: #0D00A4;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    padding: 2vw;
+}
+
+.main-projecten {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projecten-eerste-tekst {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-self: center;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.school-projecten-blokjes{
+    height: 500px;
+    width: 400px;
+    background-color: #0D00A4;
+    margin-bottom: 100px;
+}
+.school-projecten-blokjes-niet-werkend{
+    height: 500px;
+    width: 400px;
+    background-color: #0D00A4;
+    margin-bottom: 100px;
+}
+
+.blok-om-projecten-blokjes{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1100px) {
+    .over-mij-plaatjes {
         height: 150px;
         width: 250px;
     }
 
-    .eerste-blok-tekst{
+    .eerste-blok-tekst {
         width: 250px;
         font-size: 17.5px;
     }
 
-    .laatste-blok-tekst{
+    .laatste-blok-tekst {
         width: 250px;
         font-size: 17.5px;
     }
@@ -184,12 +255,12 @@ a {
         font-size: 18px;
     }
 
-    .blok-voor-text{
+    .blok-voor-text {
         height: fit-content;
     }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .over-mij-container {
         flex-direction: column;
         gap: 25px;
@@ -216,23 +287,27 @@ a {
         gap: 2vw;
         align-content: center;
     }
-    .witte-text-kleur{
+
+    .witte-text-kleur {
         font-size: 13px;
     }
-    .blauwe-text-kleur{
+
+    .blauwe-text-kleur {
         font-size: 13px;
     }
-    .text-naam{
+
+    .text-naam {
         font-size: 20px;
     }
 }
 
-@media only screen and (max-width: 412px){
-    .blauwe-text-kleur-footer{
+@media only screen and (max-width: 412px) {
+    .blauwe-text-kleur-footer {
         font-size: 13px;
         text-align: center;
     }
-    .witte-text-kleur-footer{
+
+    .witte-text-kleur-footer {
         font-size: 13px;
     }
 }
