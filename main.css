@@ -217,6 +217,17 @@ a {
     flex-direction: column;
     justify-content: flex-start;
 }
+.school-projecten-blokjes-mastermind{
+    height: 700px;
+    width: 400px;
+    background-color: #0D00A4;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 .school-projecten-blokjes-niet-werkend {
     height: 600px;
@@ -418,11 +429,17 @@ a {
     .school-projecten-blokjes{
         width: 300px;
     }
+    .school-projecten-blokjes-mastermind{
+        width: 300px;
+        height: 600px;
+    }
     .pink-goose-plaatje{
         width: 280px;
+        height: 150px;
     }
     .mastermind-plaatje{
         width: 280px;
+        height: 150px;
     }
 
     .algemene-info-visual{
@@ -440,7 +457,9 @@ a {
     .algemene-info-eclipse{
         font-size: 12px;
     }
-    
+    .algemene-info-onder-eclipse{
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
