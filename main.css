@@ -275,7 +275,7 @@ a {
     padding: 20px;
 }
 
-.algemene-info-apps {
+.algemene-info-visual {
     color: #ffffff;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
@@ -412,6 +412,35 @@ a {
     .blok-voor-text {
         height: fit-content;
     }
+}
+
+@media only screen and (max-width: 800px){
+    .school-projecten-blokjes{
+        width: 300px;
+    }
+    .pink-goose-plaatje{
+        width: 280px;
+    }
+    .mastermind-plaatje{
+        width: 280px;
+    }
+
+    .algemene-info-visual{
+        font-size: 12px;
+    }
+    .algemene-info-browsers{
+        font-size: 12px;
+    }
+    .algemene-info-figma{
+        font-size: 12px;
+    }
+    .onderste-stuk-tekst{
+        font-size: 12px;
+    }
+    .algemene-info-eclipse{
+        font-size: 12px;
+    }
+    
 }
 
 @media only screen and (max-width: 700px) {
