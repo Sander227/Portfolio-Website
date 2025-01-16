@@ -1,6 +1,6 @@
 * {
     padding: 0%;
-    margin: 0%
+    margin: 0%;
 }
 
 body {
@@ -86,15 +86,56 @@ a {
 
 .box-om-plaatje {
     display: flex;
-    height: 600px;
+    gap: 5vw;
+    height: 36vw;
+    width: 98.9vw;
     background-image: url(images/HomePaginaEersteFoto.webp);
     background-repeat: no-repeat;
+    background-size: 70vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .box-om-plaatje2 {
-    background-position: right;
+    display: flex;
+    gap: 5vw;
+    height: 36vw;
+    width: 98.9vw;
     background-image: url(images/HomePaginaTweedeFoto.webp);
-    background-size: 1075px;
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    background-position: right;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-tekst-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 65vw;
+}
+
+.home-tekst {
+    background-color: #140152;
+    padding-left: 1.5vw; padding-right: 1.5vw;
+    padding-top: 0.75vw; padding-bottom: 0.75vw;
+    border-radius: 0.75vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    width: 17vw;
+    text-align: center;
+    color: #d3d3d3;
+    margin-top: 20px; margin-bottom: 20px;
+    z-index: 3;
+}
+
+.right {
+    align-items: flex-end;
+    width: 65vw;
 }
 
 .witte-text-kleur-footer {
@@ -415,6 +456,21 @@ a {
         height: fit-content;
     }
 }
+@media only screen and (max-width: 1000px) {
+    .box-om-plaatje {
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .box-om-plaatje2 {
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .home-tekst {
+        width: 25vw;
+    }
+}
 @media only screen and (max-width: 800px) {
     .school-projecten-blokjes {
         width: 300px;
@@ -502,6 +558,18 @@ a {
 
     .text-naam {
         font-size: 20px;
+    }
+
+    .home-tekst {
+        font-size: 17px;
+    }
+
+    .box-om-plaatje {
+        height: 45vh;
+    }
+
+    .box-om-plaatje2 {
+        height: 45vh;
     }
 }
 @media only screen and (max-width: 625px) {
