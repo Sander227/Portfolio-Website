@@ -661,49 +661,56 @@ a {
         width: 25vw;
     }
 
-    .formulier-input{
+    .formulier-input {
         width: 400px;
         font-size: 12px;
-        
+
     }
-    .formulier-input-lang{
+
+    .formulier-input-lang {
         width: 400px;
         font-size: 12px;
         height: 200px;
     }
 
-    .contact-eerste-blokje{
+    .contact-eerste-blokje {
         font-size: 13px;
     }
-    .formulier-tekst{
+
+    .formulier-tekst {
         font-size: 20px;
     }
-    .verzend-knop{
+
+    .verzend-knop {
         font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 850px) {
-    .andere-contact-mogelijkheden{
+    .andere-contact-mogelijkheden {
         width: 250px;
         height: 300px;
     }
-    .whatsapp-logo{
+
+    .whatsapp-logo {
         width: 150px;
         height: 150px;
     }
-    .mail-logo{
+
+    .mail-logo {
         width: 175px;
         height: 175px;
     }
 
-    .whatsapp-tekst{
+    .whatsapp-tekst {
         font-size: 13px;
     }
-    .mail-tekst{
+
+    .mail-tekst {
         font-size: 13px;
     }
-    .andere-mogelijkheden-voor-contact-tekst{
+
+    .andere-mogelijkheden-voor-contact-tekst {
         font-size: 25px;
         padding: 5px;
     }
@@ -788,49 +795,58 @@ a {
         font-size: 12px;
     }
 
-    .formulier-input{
+    .formulier-input {
         width: 200px;
         font-size: 10px;
-        
+
     }
-    .formulier-input-lang{
+
+    .formulier-input-lang {
         width: 200px;
         font-size: 10px;
     }
 
-    .contact-eerste-blokje{
+    .contact-eerste-blokje {
         font-size: 9px;
         width: 350px;
     }
-    .formulier-tekst{
+
+    .formulier-tekst {
         font-size: 15px;
     }
-    .verzend-knop{
+
+    .verzend-knop {
         font-size: 12px;
     }
-    .andere-mogelijkheden-voor-contact-tekst{
+
+    .andere-mogelijkheden-voor-contact-tekst {
         font-size: 18px;
     }
-    .andere-contact-mogelijkheden{
+
+    .andere-contact-mogelijkheden {
         width: 200px;
         height: 250px;
     }
-    .whatsapp-logo{
+
+    .whatsapp-logo {
         width: 100px;
         height: 100px;
     }
-    .mail-logo{
+
+    .mail-logo {
         width: 125px;
         height: 125px;
     }
 
-    .whatsapp-tekst{
+    .whatsapp-tekst {
         font-size: 10px;
     }
-    .mail-tekst{
+
+    .mail-tekst {
         font-size: 10px;
     }
-    .andere-mogelijkheid-contact-blokje{
+
+    .andere-mogelijkheid-contact-blokje {
         margin-top: 80px;
         margin-bottom: 25px;
     }
@@ -975,8 +991,8 @@ a {
     }
 }
 
-@media only screen and (max-width: 525px){
-    .contact-eerste-blokje{
+@media only screen and (max-width: 525px) {
+    .contact-eerste-blokje {
         font-size: 8px;
     }
 }
@@ -1108,30 +1124,35 @@ a {
     .laatste-blok-tekst {
         font-size: 12px;
     }
-    .andere-mogelijkheden-voor-contact-tekst{
+
+    .andere-mogelijkheden-voor-contact-tekst {
         font-size: 14px;
     }
-    .andere-contact-mogelijkheden{
+
+    .andere-contact-mogelijkheden {
         width: 150px;
         height: 200px;
     }
-    .whatsapp-logo{
+
+    .whatsapp-logo {
         width: 75px;
         height: 75px;
     }
-    .mail-logo{
+
+    .mail-logo {
         width: 100px;
         height: 100px;
     }
 
-    .whatsapp-tekst{
-        font-size: 8px;
-    }
-    .mail-tekst{
+    .whatsapp-tekst {
         font-size: 8px;
     }
 
-    .blok-om-andere-contact-blokjes{
+    .mail-tekst {
+        font-size: 8px;
+    }
+
+    .blok-om-andere-contact-blokjes {
         margin-top: 0px;
         margin-bottom: 0px;
     }
